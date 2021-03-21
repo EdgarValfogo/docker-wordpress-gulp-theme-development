@@ -1,0 +1,38 @@
+{
+  "name": "docker-wordpress-gulp-theme-development",
+  "version": "1.0.0",
+  "description": "A Wordpress theme made by Edgar Valfogo",
+  "main": "gulpfile.babel.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "gulp-postcss": "^9.0.0",
+    "gulp-wp-pot": "^2.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/register": "^7.13.8",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^5.1.0",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^6.1.2",
+    "yargs": "^16.2.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "bundle": "gulp bundle --prod"
+  },
+  "author": "",
+  "license": "ISC"
+}
